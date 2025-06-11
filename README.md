@@ -29,11 +29,38 @@ Ou apenas como dependência de desenvolvimento:
 npm install --save-dev ts-node-dev
 ```
 
-## ✍️ Objetivo  
-O objetivo deste repositório é documentar minha jornada de aprendizado em TypeScript por meio de exercícios práticos e consistência diária.  
+## 🤝 Como Contribuir com Exercícios
+Se você também está estudando TypeScript e quer participar, você pode contribuir com novos desafios da seguinte forma: 
   
-## 📅 Atualizações  
-Os exercícios serão atualizados regularmente à medida que novos tópicos forem estudados.  
+### 1. Faça um Fork do Repositório  
+* Clique em Fork no canto superior direito da página do repositório.
+* Isso criará uma cópia do repositório no seu perfil.
   
-## 📬 Contato
-Caso tenha sugestões ou queira trocar uma ideia sobre TypeScript, fique à vontade para abrir uma issue ou me chamar!
+### 🧑‍💻 2. Adicione seu Exercício
+* No seu fork, crie um novo arquivo com o nome do exercício (ex: desafio06.ts).
+* No topo do arquivo, adicione um comentário com a descrição do desafio. Exemplo:  
+```bash
+// Desafio 06 - Verificar número primo
+// Crie uma função que recebe um número e retorna se ele é primo ou não.
+```  
+* Certifique-se de seguir o padrão de nomeação: desafioNN.ts (onde NN é o número do desafio).
+
+### 📥 3. Envie um Pull Request
+* Após adicionar seu desafio e confirmar que está funcionando, envie um Pull Request (PR) de volta para este repositório.
+* Assim que revisado, seu código será incluído oficialmente no projeto!
+
+## 📂 Organização dos Arquivos
+Todos os desafios estão listados diretamente na raiz do projeto com nomes como:
+
+```bash
+desafio01.ts
+desafio02.ts
+desafio03.ts
+...
+```
+Cada um contém no topo a proposta do exercício para fácil compreensão.  
+  
+## 📬 Contato  
+Se tiver dúvidas ou quiser trocar ideias, fique à vontade para abrir uma issue aqui no GitHub ou mandar uma mensagem no grupo do WhatsApp.
+
+Vamos aprender juntos! 🚀

@@ -1,3 +1,4 @@
+// Desafio 01 - Filtrando e Ordenando Produtos Indisponíveis
 function calcularDesconto(preco:number, desconto: number): number{
     return preco - (preco * (desconto / 100)); // retorna o preço com desconto aplicado
 }

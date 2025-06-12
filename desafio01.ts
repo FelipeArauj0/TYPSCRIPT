@@ -39,5 +39,7 @@ let estoque: Produto[] = [
     }
 ]
 
-console.log(estoque.filter(produto => produto.disponivel === false).map(produto => `${produto.nome} - R$ ${produto.preco.toFixed(2)}`).sort()); // sort usado para ordenar os produtos indisponiveis por nome em ordem alfabética.
+// console.log(estoque.filter(produto => produto.disponivel === false).map(produto => `${produto.nome} - R$ ${produto.preco.toFixed(2)}`).sort()); // sort usado para ordenar os produtos indisponiveis por nome em ordem alfabética.
 // console.log(estoque.filter(produto => produto.nome).map(produto => `${produto.id} - ${produto.nome} - R$ ${produto.preco.toFixed(2)}`));
+
+console.log(estoque); //exibir o estoque completo

@@ -1,10 +1,15 @@
-// Desafio 01 - Filtrando e Ordenando Produtos Indisponíveis
-function calcularDesconto(preco:number, desconto: number): number{
-    return preco - (preco * (desconto / 100)); // retorna o preço com desconto aplicado
+// Desafio 01 - Função calcularDesconto(preco: number, desconto: number)
+// Valida se o desconto está entre 0 e 100
+
+// Retorna o preço final com desconto aplicado
+function calcularDesconto(preco: number, desconto: number): number {
+    if(desconto < 0 || desconto > 100){
+        throw new Error("Desconto deve ser entre 0 e 100");
+    }
+    return preco - (preco * (desconto / 100))
 }
 
-let precoProduto: number = 100;
-let descontoProduto: number = 10;
+console.log(calcularDesconto(300, 10));
 
-console.log(`O preço do produto sem desconto é: R$ ${precoProduto.toFixed(2)}`)
-console.log(`O preço do produto com desconto de ${descontoProduto}% é: R$ ${calcularDesconto(precoProduto, descontoProduto).toFixed(2)}`);
+
+

@@ -6,40 +6,44 @@ type Produto = {
     disponivel: boolean
 }
 
-let estoque: Produto[] = [
+let produtos: Produto[] = [
     {
         id: 1,
-        nome: "Carro Hot Wheels",
-        preco: 15.00,
+        nome: "Panela de pressão",
+        preco: 59.99,
         disponivel: true
     },
     {
         id: 2,
-        nome: "Max Steel",
-        preco: 29.99,
+        nome: "Notbook",
+        preco: 1499.99,
         disponivel: false
     },
     {
         id: 3,
-        nome: "Boneca Barbie",
-        preco: 45.50,
-        disponivel: true
+        nome: "alicate",
+        preco: 299.99,
+        disponivel: false
     },
     {
         id: 4,
-        nome: "Bola de Futebol",
-        preco: 39.90,
-        disponivel: false
+        nome: "Teclado",
+        preco: 89.99,
+        disponivel: true
     },
     {
         id: 5,
-        nome: "Quebra-Cabeça",
-        preco: 25.00,
+        nome: "Mouse",
+        preco: 49.99,
         disponivel: false
     }
-]
+];
 
-// console.log(estoque.filter(produto => produto.disponivel === false).map(produto => `${produto.nome} - R$ ${produto.preco.toFixed(2)}`).sort()); // sort usado para ordenar os produtos indisponiveis por nome em ordem alfabética.
-// console.log(estoque.filter(produto => produto.nome).map(produto => `${produto.id} - ${produto.nome} - R$ ${produto.preco.toFixed(2)}`));
+console.log("produtos indisponiveis ordenados por nome:")
+console.log(produtos
+    .filter(p => !p.disponivel)
+    .sort((a,b) => a.nome.localeCompare(b.nome))
+    .map(p => `${p.nome} - R$ ${p.preco.toFixed(2)}`)
+    .toString()
+    .replace(/,/g, "\n"));
 
-console.log(estoque); //exibir o estoque completo

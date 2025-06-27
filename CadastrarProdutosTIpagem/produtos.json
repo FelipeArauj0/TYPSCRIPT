@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nome": "CAPA A06",
+    "descricao": "TRANSPARENTE",
+    "preco": 10,
+    "quantidade_em_estoque": 10,
+    "categoria": "Sem categoria"
+  },
+  {
+    "id": 2,
+    "nome": "CAPA A06",
+    "descricao": "PRETA",
+    "preco": 10,
+    "quantidade_em_estoque": 10,
+    "categoria": "Sem categoria"
+  },
+  {
+    "id": 3,
+    "nome": "CAPA A06",
+    "descricao": "AZUL",
+    "preco": 10,
+    "quantidade_em_estoque": 10,
+    "categoria": "Sem categoria"
+  },
+  {
+    "id": 4,
+    "nome": "CAPA A06",
+    "descricao": "ROSA",
+    "preco": 10,
+    "quantidade_em_estoque": 10,
+    "categoria": "Sem categoria"
+  },
+  {
+    "id": 5,
+    "nome": "capa a10",
+    "descricao": "transaparente",
+    "preco": 10,
+    "quantidade_em_estoque": 5,
+    "categoria": "Sem categoria"
+  }
+]
